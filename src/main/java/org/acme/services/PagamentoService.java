@@ -8,7 +8,7 @@ public class PagamentoService {
             throw new IllegalArgumentException("Cliente inválido!");
         }
 
-        double valor = cliente.getPlano().mensalidade();
+        double valor = cliente.getPlano().calcularMensalidade();
 
         System.out.println("Processando pagamento...");
         System.out.printf("Aluno: %s\nValor: %.2f\n", cliente.getNome(), valor);
