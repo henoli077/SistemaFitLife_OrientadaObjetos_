@@ -1,5 +1,7 @@
 package org.acme.modules;
 
+import org.acme.modules.models.Cliente;
+import org.acme.modules.models.Treino;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

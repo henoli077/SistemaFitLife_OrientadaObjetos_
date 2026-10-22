@@ -1,14 +1,14 @@
 package org.acme.modules;
 
-import org.acme.modules.plano.models.Plano;
-import org.acme.modules.plano.models.PlanoMensal;
-import org.acme.modules.plano.models.PlanoPersonalizado;
-import org.acme.modules.plano.models.PlanoPremium;
+import org.acme.modules.models.Plano;
+import org.acme.modules.models.PlanoMensal;
+import org.acme.modules.models.PlanoPersonalizado;
+import org.acme.modules.models.PlanoPremium;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PlanoTeste {
+public class PlanoTest {
 
     @Test
     public void calcularMensalidadeDoPlanoMensal() {
