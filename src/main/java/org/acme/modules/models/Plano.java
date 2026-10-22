@@ -1,4 +1,4 @@
-package org.acme.modules.plano.models;
+package org.acme.modules.models;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import jakarta.persistence.*;

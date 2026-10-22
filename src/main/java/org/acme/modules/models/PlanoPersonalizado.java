@@ -1,4 +1,4 @@
-package org.acme.modules.plano.models;
+package org.acme.modules.models;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;

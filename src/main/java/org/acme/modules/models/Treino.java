@@ -1,4 +1,4 @@
-package org.acme.modules;
+package org.acme.modules.models;
 
 import jakarta.persistence.*;
 
@@ -96,5 +96,11 @@ public class Treino {
         }
 
         this.cliente = cliente;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("#%d - %s: %s | Cliente: %s",
+                id, nome, descricao, cliente.getNome());
     }
 }

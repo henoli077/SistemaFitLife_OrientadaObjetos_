@@ -1,14 +1,14 @@
-package org.acme.modules.plano.models;
+package org.acme.modules.models;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 
 @Entity
-@DiscriminatorValue("MENSAL")
-public class PlanoMensal extends Plano {
+@DiscriminatorValue("PREMIUM")
+public class PlanoPremium extends Plano {
 
-    public PlanoMensal() {
-        super("Mensal", 100.0);
+    public PlanoPremium() {
+        super("Premium", 200.0);
     }
 
     @Override

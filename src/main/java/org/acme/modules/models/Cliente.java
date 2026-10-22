@@ -1,6 +1,4 @@
-package org.acme.modules;
-
-import org.acme.modules.plano.models.Plano;
+package org.acme.modules.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -113,5 +111,12 @@ public class Cliente {
 
     public void setPlano(Plano plano) {
         this.plano = plano;
+    }
+
+    @Override
+    public String toString() {
+        String nomePlano = (plano == null) ? "Sem plano" : plano.getNome();
+        return String.format("#%d - %s | %s | %d anos | Plano: %s",
+                id, nome, email, idade, nomePlano);
     }
 }

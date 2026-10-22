@@ -1,6 +1,6 @@
 package org.acme.services;
 
-import org.acme.modules.Cliente;
+import org.acme.modules.models.Cliente;
 
 import java.math.BigDecimal;
 
