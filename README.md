@@ -66,12 +66,12 @@ SistemaFitLife_OrientadaObjetos/
 │   │   │       │   │   ├── PlanoPersonalizado.java
 │   │   │       │   │   ├── Cliente.java
 │   │   │       │   │   └── Treino.java
-│   │   │       │   ├── service
-│   │   │       │   │   ├── ClienteService.java
-│   │   │       │   │   ├── PagamentoService.java
-│   │   │       │   │   ├── PlanoSeed.java
-│   │   │       │   │   ├── PlanoService.java
-│   │   │       │   │   └── TreinoService.java
+│   │   │       │   └── service
+│   │   │       │       ├── ClienteService.java
+│   │   │       │       ├── PagamentoService.java
+│   │   │       │       ├── PlanoSeed.java
+│   │   │       │       ├── PlanoService.java
+│   │   │       │       └── TreinoService.java
 │   │   │       └── FitLifeApp.java
 │   │   └── resources/
 │   │       └── application.properties
