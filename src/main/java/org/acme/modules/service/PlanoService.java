@@ -1,10 +1,10 @@
-package org.acme.modules.plano.service;
+package org.acme.modules.service;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.transaction.Transactional;
 import java.util.List;
-import org.acme.modules.plano.models.Plano;
-import org.acme.modules.plano.models.PlanoPersonalizado;
+import org.acme.modules.models.Plano;
+import org.acme.modules.models.PlanoPersonalizado;
 
 @ApplicationScoped
 public class PlanoService {

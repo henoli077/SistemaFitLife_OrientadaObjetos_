@@ -1,12 +1,12 @@
-package org.acme.modules.plano.service;
+package org.acme.modules.service;
 
 import io.quarkus.runtime.StartupEvent;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
 import jakarta.transaction.Transactional;
-import org.acme.modules.plano.models.Plano;
-import org.acme.modules.plano.models.PlanoMensal;
-import org.acme.modules.plano.models.PlanoPremium;
+import org.acme.modules.models.Plano;
+import org.acme.modules.models.PlanoMensal;
+import org.acme.modules.models.PlanoPremium;
 
 // Inicia planos no banco caso ele esteja vazio
 @ApplicationScoped
