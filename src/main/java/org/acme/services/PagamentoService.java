@@ -10,7 +10,7 @@ public class PagamentoService {
             throw new IllegalArgumentException("Cliente inválido!");
         }
 
-        BigDecimal valor = cliente.getPlano().mensalidade();
+        BigDecimal valor = cliente.getPlano().calcularMensalidade();
 
         System.out.println("Processando pagamento...");
         System.out.printf("Aluno: %s\nValor: %.2f\n", cliente.getNome(), valor);

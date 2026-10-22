@@ -1,5 +1,7 @@
 package org.acme.modules;
 
+import org.acme.modules.plano.models.Plano;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
