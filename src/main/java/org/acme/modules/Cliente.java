@@ -23,7 +23,7 @@ public class Cliente {
     private Integer idade;
 
     @ManyToOne
-    @JoinColumn(name = "planoId", nullable = true)
+    @JoinColumn(name = "plano_id", nullable = true)
     private Plano plano;
 
     //Construtor do Hibernate
